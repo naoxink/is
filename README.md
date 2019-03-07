@@ -1,0 +1,2 @@
+# is
+Quick helper class
