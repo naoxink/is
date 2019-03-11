@@ -1,7 +1,7 @@
 class Is {
 
   defined(v){
-    return typeof v !=== 'undefined'
+    return typeof v !== 'undefined'
   }
   
   boolean(v){
