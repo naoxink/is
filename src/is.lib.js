@@ -19,5 +19,11 @@ class Is {
   object(v){
     return v.constructor === {}.constructor
   }
+  
+  property(prop){
+    return (obj) => {
+      return obj.hasOwnProperty(prop)
+    }
+  }
 
 }
